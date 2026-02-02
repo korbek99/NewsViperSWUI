@@ -11,7 +11,7 @@ import SwiftUI
 struct NewsViperSWUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
 }
