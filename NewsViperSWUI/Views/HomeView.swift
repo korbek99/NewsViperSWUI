@@ -12,7 +12,7 @@ struct HomeView: View {
     var body: some View {
         TabView {
 
-            PopularNewsView()
+            NewsRouter.createModule()
                 .tabItem {
                     Label("Titulares", systemImage: "newspaper.fill")
                 }
